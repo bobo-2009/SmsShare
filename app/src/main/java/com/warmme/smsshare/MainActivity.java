@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        SmsHandler.sendSmsAsy(new SmsInfo("18575582923","onCreate:=>【招商金科】"));
+        SmsHandler.sendSmsAsy(new SmsInfo("18575582923","onCreate:=>【短信签名】"));
     }
 
     @Override
