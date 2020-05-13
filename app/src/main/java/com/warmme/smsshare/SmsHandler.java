@@ -48,7 +48,7 @@ public class SmsHandler {
                if (smsInfo.getMsg()==null || smsInfo.getMsg().equals("")){
                    return false;
                }
-               if (!smsInfo.getMsg().contains("【招商金科】")){
+               if (!smsInfo.getMsg().contains("【短信签名】")){
                    return false;
                }
                return true;
